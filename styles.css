@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F2F0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.headerImg {
+  max-width: 250px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.about {
+  max-width: 55%;
+}
+
+@media (max-width: 768px) {
+  .about {
+      max-width: 95%;
+  }
+}
+
+.socials {
+  width: auto;
+  margin-top: 20px;
+}
+
+.socials a {
+  margin: 5px;
+  color: #2C86BE;
+}
+
+.socials img {
+  width: 35px;
+  height: 35px;
+}
